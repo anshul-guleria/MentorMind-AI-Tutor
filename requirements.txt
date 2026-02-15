@@ -1,10 +1,31 @@
+# --- Backend Core ---
 fastapi
-uvicorn[standard]
-pydantic
-pydantic[email]
-python-multipart
+uvicorn
 sqlalchemy
+pydantic
+python-multipart
 python-dotenv
+
+# --- Authentication ---
 python-jose[cryptography]
+passlib[bcrypt]
 bcrypt
-# google-genai  # uncomment and add version for Gemini (e.g. google-genai)
+
+# --- AI & LLM Services ---
+groq
+google-genai
+ollama
+
+# --- RAG & Vector DB ---
+pinecone
+pinecone-client
+sentence-transformers
+pypdf
+
+# --- Voice & Audio ---
+gTTS
+
+# --- Frontend (Streamlit) ---
+streamlit
+streamlit-mic-recorder
+requests
