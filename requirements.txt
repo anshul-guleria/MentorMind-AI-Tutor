@@ -10,6 +10,8 @@ python-dotenv
 python-jose[cryptography]
 passlib[bcrypt]
 bcrypt
+psycopg2
+pydantic[email]
 
 # --- AI & LLM Services ---
 groq
@@ -18,7 +20,6 @@ ollama
 
 # --- RAG & Vector DB ---
 pinecone
-pinecone-client
 sentence-transformers
 pypdf
 
