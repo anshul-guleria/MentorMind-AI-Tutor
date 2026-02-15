@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic[email]
+python-multipart
+sqlalchemy
+python-dotenv
+python-jose[cryptography]
+bcrypt
+# google-genai  # uncomment and add version for Gemini (e.g. google-genai)
