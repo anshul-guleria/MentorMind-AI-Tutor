@@ -1,12 +1,6 @@
-Here is a professional `README.md` file for your AI Tutor application using the **Streamlit** frontend and **FastAPI** backend.
-
----
-
 # 🎓 AI Tutor Platform
 
 A comprehensive, AI-powered learning platform built with **FastAPI** (Backend) and **Streamlit** (Frontend). This application allows students to ask questions via text or voice, generates personalized quizzes, tracks learning history, and lets users chat with PDF documents using RAG (Retrieval-Augmented Generation).
-
-![AI Tutor Dashboard](https://via.placeholder.com/800x400?text=AI+Tutor+Dashboard+Preview)
 
 ## 🚀 Features
 
@@ -160,7 +154,3 @@ When you upload a PDF:
 *   **Audio Issues:**
     Ensure your browser has permission to access the microphone.
 
----
-
-## 📜 License
-This project is open-source and available under the [MIT License](LICENSE).
