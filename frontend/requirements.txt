@@ -1,0 +1,33 @@
+# --- Backend Core ---
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-multipart
+python-dotenv
+
+# --- Authentication ---
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+psycopg2
+psycopg2-binary
+pydantic[email]
+
+# --- AI & LLM Services ---
+groq
+google-genai
+ollama
+
+# --- RAG & Vector DB ---
+pinecone
+sentence-transformers
+pypdf
+
+# --- Voice & Audio ---
+gTTS
+
+# --- Frontend (Streamlit) ---
+streamlit
+streamlit-mic-recorder
+requests
