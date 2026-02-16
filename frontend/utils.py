@@ -1,7 +1,8 @@
+import os
 import requests
 import streamlit as st
 
-API_BASE = "http://localhost:8000"
+API_BASE = os.getenv("API_BASE_URL", "http://localhost:8000")
 
 def api_call(endpoint, method="GET", payload=None, files=None):
     token = st.session_state.get("token")
